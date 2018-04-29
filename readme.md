@@ -22,7 +22,7 @@ Response example:
     }
 }
 ```
-2. POST /user/{user}/add-money - add money to user wallet, {user} - user id.
+2. POST /api/user/{user}/add-money - add money to user wallet, {user} - user id.
 Request example:
 ```json
 {
@@ -40,7 +40,7 @@ Response example:
     }
 }
 ```
-3. POST /user/{user}/transfer-money - transfer money from one user to other, {user} - user id.
+3. POST /api/user/{user}/transfer-money - transfer money from one user to other, {user} - user id.
 Request example:
 ```json
 {
@@ -59,7 +59,7 @@ Response example:
     }
 }
 ```
-4. POST /exchange-rate - create new exchange rate. 
+4. POST /api/exchange-rate - create new exchange rate. 
 Request example:
 ```json
 {
